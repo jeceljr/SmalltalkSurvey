@@ -131,10 +131,15 @@ To add:
 
 | year | name and version    | authors                       | license    | description |
 |------|---------------------|-------------------------------|------------|-------------|
+| 2022 | Squeak 6.0          | Squeak Board                  | open       | high resolution, uses SistaV1 bytecodes |
+| 2015 | Squeak 5.0          | Squeak Board                  | open       | introduced Spur memory model |
+| 2008 | Squeak 3.10         | Squeak Board                  | open       | first release after Pharo fork |
 | 2007 | Little Smalltalk 5  | Charles Childers              | open       |             |
 | 2006 | Strongtalk          | Sun                           | open       | an open source release of the vm from the 1997 Strongtalk |
 | 2005 | Little Smalltalk 4  | Tim Budd                      | open       | metaclasses, compiler in Smalltalk |            |
 | 2002 | Strongtalk          | Sun                           | open       | an open source release of the image from the 1997 Strongtalk |
+| 2001 | Squeak 3.0          | Squeak Central                | open       | switched to Morphic as default GUI |
+| 2000 | Squeak 2.0          | Squeak Central                | open       | pluggable views, Morphic |
 | 1994 | Smalltalk/X         | eXept Software AG             | open       | moved from hobby to commercial development |
 | 1990 | Smalltalk/X         | Claus Gittinger               |            | added JIT compilation |
 | 1988 | Smalltalk/X         | Claus Gittinger               | internal   | added bytecode interpreter |
