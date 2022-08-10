@@ -33,7 +33,6 @@ To add:
 
 * Dolphin
 * Smalltalk MT
-* Smalltalk/X
 * Squeak VMs
 * * Cog/OpenSmalltalkVM
 * * RoarVM
@@ -47,7 +46,6 @@ To add:
 * Cuis
 * Pharo
 * Bee Smalltalk
-* MIST
 * PigeonTalk
 * Smalltalk 25
 * Object Studio
@@ -81,11 +79,12 @@ To add:
 * Huemul
 
 
-## Initial Release
+### Initial Release
 
 | year | name and version    | type     | authors                       | license    | description |
 |------|---------------------|----------|-------------------------------|------------|-------------|
 | 2015 | Spry                | system   | Göran Krampe                  | open       | very tiny but Smalltalk-like implemented in Nim |
+| 2012 | Mist                | system   | Martin McClure                | open       | simple Smalltalk-in-Smalltalk that compiles to x86-64 |
 | 2011 | Amber Smalltalk     | system   | Nicolas Petton                | open       | runs on Javascript |
 | 2010 | Sly                 | image    | David Ungar, Sam Adams        | open       | extends Squeak to implement ensembles and adverbs on the RoarVM |
 | 2003 | GNU Smalltalk       | system   | Steve Byrne, Paolo Bonzini    | open       | text based |
@@ -100,6 +99,7 @@ To add:
 | 1988 | ConcurrentSmalltalk | hardware | MIT                           | internal   | Lisp syntax version of Smalltalk on the 1024 processor J-Machine |
 | 1987 | Mushroom            | hardware | U Manchester                  | internal   | multiple FPGAs and TTLs |
 | 1987 | Self                | paper    | Dave Ungar, Randy Smith       |            | prototype based |
+| 1986 | Smalltalk/X         | system   | Claus Gittinger               | internal   | Smalltalk to C translator, initially |
 | 1986 | ConcurrentSmalltalk | system   | Yasuhiko Yokote, Mario Tokoro |            | implements "return and continue", mailboxes |
 | 1986 | Swamp               | hardware | U Toronto                     | internal   | bitslice |
 | 1986 | AI32                | hardware | Hitachi                       | internal   | chip |
@@ -127,7 +127,7 @@ To add:
 | 1972 | Smalltalk-72        | system   | PARC                          | internal   | first implementation |
 | 1971 | Smalltalk-71        | paper    | PARC                          |            | initial ideas
 
-## Further Releases and Forks
+### Further Releases and Forks
 
 | year | name and version    | authors                       | license    | description |
 |------|---------------------|-------------------------------|------------|-------------|
@@ -135,5 +135,8 @@ To add:
 | 2006 | Strongtalk          | Sun                           | open       | an open source release of the vm from the 1997 Strongtalk |
 | 2005 | Little Smalltalk 4  | Tim Budd                      | open       | metaclasses, compiler in Smalltalk |            |
 | 2002 | Strongtalk          | Sun                           | open       | an open source release of the image from the 1997 Strongtalk |
+| 1994 | Smalltalk/X         | eXept Software AG             | open       | moved from hobby to commercial development |
+| 1990 | Smalltalk/X         | Claus Gittinger               |            | added JIT compilation |
+| 1988 | Smalltalk/X         | Claus Gittinger               | internal   | added bytecode interpreter |
 | 1988 | Little Smalltalk 3  | Tim Budd                      | open       | reorganized source tree |
 | 1987 | Little Smalltalk 2  | Tim Budd                      | open       | globals, more code moved to Smalltalk |
