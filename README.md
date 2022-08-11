@@ -51,19 +51,15 @@ To add:
 * * OpenSelf
 * * Self/R
 * Squeak VMs
-* * Cog/OpenSmalltalkVM
-* * RoarVM
 * * SqueakJS
 * * RSqueak
-* * TruffleSqueak
 * * JSqueak/Potato
 * * Jitter
 * * Jitter3
 * * Jitter5
 
+Taken from [a draft Smalltalk history at Simberon](http://simberon.blogspot.com/2012/04/smalltalk-history-draft-2.html):
 ![relationship between Smalltalk implementations](./images/SmalltalkHistory.png)
-
-Taken from [a draft Smalltalk history at Simberon](http://simberon.blogspot.com/2012/04/smalltalk-history-draft-2.html)
 
 ### Initial Release and Forks
 
@@ -72,20 +68,27 @@ Taken from [a draft Smalltalk history at Simberon](http://simberon.blogspot.com/
 | 2022 | PigeonTalk          | system   | David Buck                    |            | block based, like Scratch  |
 | 2021 | Zag                 | system   | David Mason                   | open       | VM written in Zig |
 | 2020 | Haver               | image    | Gerald Klix                   | open       | runs on Cuis and adds modules |
-| 2015 | Spry                | system   | Göran Krampe                  | open       | very tiny but Smalltalk-like implemented in Nim |
+| 2020 | Crosstalk           | vm       | Michael Engel                 | [open](https://github.com/michaelengel/crosstalk) | Smalltalk-80 VM in C++ for Raspberry Pi |
+| 2020 | Smalltalk           | vm       | Dan Banay                     | [open](https://github.com/dbanay/Smalltalk) | translations of the "Blue Book" VM to C |
+| 2020 | Smalltalk           | vm       | Rochus Keller                 | [open](https://github.com/rochus-keller/Smalltalk) | interpreter and other tools to explore the orignal Smalltalk-80 image |
+| 2017 | TruffleSqueak       | vm       | Hasso PLattner Institut       | [open](https://github.com/hpi-swa/trufflesqueak) | uses Truffle and GraalVM |
+| 2015 | Spry                | system   | Göran Krampe                  | [open](https://github.com/gokr/spry)       | very tiny but Smalltalk-like implemented in Nim |
 | 2014 | Smalltalk 25        | system   | Boris Shingarov               |            | generate a VM from the definition of a processor |
 | 2014 | Bee Smalltalk       | system   | Javier Pimás, Javier Burroni, Gerardo Richarte | open      | metacircular Smalltalk            |
 | 2012 | Mist                | system   | Martin McClure                | open       | simple Smalltalk-in-Smalltalk that compiles to x86-64 |
-| 2011 | Amber Smalltalk     | system   | Nicolas Petton                | open       | runs on Javascript |
-| 2011 | Redline Smalltalk   | system   | James Ladd, Sean Allen        | open       | runs on the Java VM |
+| 2011 | Amber Smalltalk     | system   | Nicolas Petton                | [open](https://github.com/amber-smalltalk/amber)      | runs on Javascript |
+| 2011 | Redline Smalltalk   | system   | James Ladd, Sean Allen        | [open](https://github.com/redline-smalltalk/redline-smalltalk)       | runs on the Java VM |
+| 2011 | Objective-Smalltalk | system   | Marcel Weiher                 | [open](https://github.com/mpw/Objective-Smalltalk) | combines features from Objective-C and Smalltalk |
 | 2010 | Sly                 | image    | David Ungar, Sam Adams        | open       | extends Squeak to implement ensembles and adverbs on the RoarVM |
 | 2010 | Pinocchio           | system   | U of Berne                    | open       | meta-circular VM |
-| 2009 | Cuis 1.0            | image    | Juan Vuletich                 | open       | fork of Squeak 3.7 to make it simpler |
-| 2009 | Pharo 0.1           | image    | Pharo Board                   | open       | fork of Squeak 3.9 to go in a different direction |
+| 2009 | Cuis 1.0            | image    | Juan Vuletich                 | [open](https://github.com/Cuis-Smalltalk/Cuis-Smalltalk-Dev)       | fork of Squeak 3.7 to make it simpler |
+| 2009 | Pharo 0.1           | image    | Pharo Board                   | [open](https://github.com/pharo-project/pharo)       | fork of Squeak 3.9 to go in a different direction |
+| 2008 | RoarVM              | vm       | David Ungar, Sam Adams        | [open](https://github.com/smarr/RoarVM) | a rewrite of the SqueakVM in C++ to run on manycore machines |
+| 2008  | OpenSmalltalkVM    | vm       | Eliot Miranda                 | [open](https://github.com/OpenSmalltalk/opensmalltalk-vm) | fork of the SqueakVM to do JIT compilation and other enhancements |
 | 2008 | Huemul              | system   | Guilleromo Adirán Molina      |            | uses Exupery to compile to x86 |
 | 2002 | #Smalltalk          | system   | John Brant, Don Roberts       | open       | Smalltalk for .NET |
 | 2002 | OOVM                | system   | Lars Bak                      | commercial | Smalltalk for embedded devices, with special block arguments |
-| 2002 | Slate               | system   | Lee Salzman, Brian Rice       | open       | prototype based with multiple dispatch |
+| 2002 | Slate               | system   | Lee Salzman, Brian Rice       | [open](https://github.com/briantrice/slate-language)     | prototype based with multiple dispatch |
 | 2002 | S#                  | system   | David Simmons                 | commercial | Smalltalk for .NET |
 | 2002 | SOM                 | system   | U of Aarhus                   | open       | SimpleObjectMachine for teaching implementation techniques |
 | 2001 | LSWVST              | system   | Lesser-Software               | commercial | bytecode compatible with Smalltalk/V |
@@ -149,7 +152,7 @@ Taken from [a draft Smalltalk history at Simberon](http://simberon.blogspot.com/
 | 2017 | VA Smalltalk 9.0    | Instanciations                | commercial |             |
 | 2017 | Pharo 6.0           | Pharo Board                   | open       |             |
 | 2016 | Cuis 5.0            | Juan Vuletich                 | open       |             |
-| 2016 | Dolphin 7           | Object Arts                   | open       | open sourced the system |
+| 2016 | Dolphin 7           | Object Arts                   | [open](https://github.com/dolphinsmalltalk/Dolphin)       | open sourced the system |
 | 2016 | Pharo 5.0           | Pharo Board                   | open       |             |
 | 2015 | Squeak 5.0          | Squeak Board                  | open       | introduced Spur memory model |
 | 2015 | Pharo 4.0           | Pharo Board                   | open       |             |
