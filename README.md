@@ -31,7 +31,6 @@ The reason for rule 2 is to allow an implementation's creators to decide. If the
 
 To add:
 
-* Pharo
 * Bee Smalltalk
 * PigeonTalk
 * Smalltalk 25
@@ -72,7 +71,7 @@ To add:
 * * Jitter5
 
 
-### Initial Release
+### Initial Release and Forks
 
 | year | name and version    | type     | authors                       | license    | description |
 |------|---------------------|----------|-------------------------------|------------|-------------|
@@ -82,6 +81,8 @@ To add:
 | 2011 | Amber Smalltalk     | system   | Nicolas Petton                | open       | runs on Javascript |
 | 2010 | Sly                 | image    | David Ungar, Sam Adams        | open       | extends Squeak to implement ensembles and adverbs on the RoarVM |
 | 2010 | #Smalltalk          | system   | John Brant, Don Roberts       | open       | Smalltalk for .NET |
+| 2009 | Cuis 1.0            | image    | Juan Vuletich                 | open       | fork of Squeak 3.7 to make it simpler |
+| 2009 | Pharo 0.1           | image    | Pharo Board                   | open       | fork of Squeak 3.9 to go in a different direction |
 | 2008 | Huemul              | system   | Guilleromo Adirán Molina      |            | uses Exupery to compile to x86 |
 | 2003 | GNU Smalltalk       | system   | Steve Byrne, Paolo Bonzini    | open       | text based |
 | 2002 | OOVM                | system   | Lars Bak                      | commercial | Smalltalk for embedded devices, with special block arguments |
@@ -129,25 +130,34 @@ To add:
 | 1972 | Smalltalk-72        | system   | PARC                          | internal   | first implementation |
 | 1971 | Smalltalk-71        | paper    | PARC                          |            | initial ideas
 
-### Further Releases and Forks
+### Further Major Releases
 
 | year | name and version    | authors                       | license    | description |
 |------|---------------------|-------------------------------|------------|-------------|
 | 2022 | Squeak 6.0          | Squeak Board                  | open       | high resolution, uses SistaV1 bytecodes |
 | 2022 | Cuis 6              | Juan Vuletich                 | open       | includes Morphic 3 |
 | 2022 | VAST Platform 11.0.0| Instanciations                | commercial |             |
+| 2022 | Pharo 10            | Pharo Board                   | open       |             |
 | 2021 | VAST Platform 10.0.0| Instanciations                | commercial | renamed VA Smalltalk to VAST Platform |
+| 2021 | Pharo 9             | Pharo Board                   | commercial |             |
 | 2020 | ObjectStudio 9.0    | Cincom                        | commercial |             |
 | 2020 | VisualWorks 9.0     | Cincom                        | commercial |             |
+| 2020 | Pharo 8.0           | Pharo Board                   | open       |             |
+| 2019 | Pharo 7.0           | Pharo Board                   | open       |             |
 | 2017 | VA Smalltalk 9.0    | Instanciations                | commercial |             |
+| 2017 | Pharo 6.0           | Pharo Board                   | open       |             |
 | 2016 | Cuis 5.0            | Juan Vuletich                 | open       |             |
 | 2016 | Dolphin 7           | Object Arts                   | open       | open sourced the system |
+| 2016 | Pharo 5.0           | Pharo Board                   | open       |             |
 | 2015 | Squeak 5.0          | Squeak Board                  | open       | introduced Spur memory model |
+| 2015 | Pharo 4.0           | Pharo Board                   | open       |             |
+| 2014 | Pharo 3.0           | Pharo Board                   | open       |             |
+| 2013 | Pharo 2.0           | Pharo Board                   | open       |             |
 | 2012 | Cuis 4.0            | Juan Vuletich                 | open       | better package support |
 | 2011 | Cuis 3.0            | Juan Vuletich                 | open       | new look |
 | 2010 | Cuis 2.0            | Juan Vuletich                 | open       | closure enabled, can used Co VM |
+| 2009 | Pharo 1.0           | Pharo Board                   | open       |             |
 | 2009 | VA Smalltalk 8.0    | Instanciations                | commercial |             |
-| 2009 | Cuis 1.0            | Juan Vuletich                 | open       | fork of Squeak 3.7 to make it simpler |
 | 2009 | Dolphin 6           | Object-Arts, Lesser Software  | commercial | moved Dolphin to LSWVST virtual machine |
 | 2008 | Squeak 3.10         | Squeak Board                  | open       | first release after Pharo fork |
 | 2007 | Little Smalltalk 5  | Charles Childers              | open       |             |
