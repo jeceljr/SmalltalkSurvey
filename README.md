@@ -81,6 +81,7 @@ To add:
 | 2011 | Amber Smalltalk     | system   | Nicolas Petton                | open       | runs on Javascript |
 | 2010 | Sly                 | image    | David Ungar, Sam Adams        | open       | extends Squeak to implement ensembles and adverbs on the RoarVM |
 | 2010 | #Smalltalk          | system   | John Brant, Don Roberts       | open       | Smalltalk for .NET |
+| 2010 | Pinocchio           | system   | U of Berne                    | open       | meta-circular VM |
 | 2009 | Cuis 1.0            | image    | Juan Vuletich                 | open       | fork of Squeak 3.7 to make it simpler |
 | 2009 | Pharo 0.1           | image    | Pharo Board                   | open       | fork of Squeak 3.9 to go in a different direction |
 | 2008 | Huemul              | system   | Guilleromo Adirán Molina      |            | uses Exupery to compile to x86 |
@@ -88,6 +89,7 @@ To add:
 | 2002 | OOVM                | system   | Lars Bak                      | commercial | Smalltalk for embedded devices, with special block arguments |
 | 2002 | Slate               | system   | Lee Salzman, Brian Rice       | open       | prototype based with multiple dispatch |
 | 2002 | S#                  | system   | David Simmons                 | commercial | Smalltalk for .NET |
+| 2002 | SOM                 | system   | U of Aarhus                   | open       | SimpleObjectMachine for teaching implementation techniques |
 | 2001 | LSWVST              | system   | Lesser-Software               | commercial | bytecode compatible with Smalltalk/V |
 | 2000 | Bistro              | system   | Nik Boyd                      | open       | Smalltalk on top of the Java VM |
 | 1999 | F-Script            | system   | Philippe Mougin               | open       | Smalltalk layer on top of Cocoa MacOS, with APL style extensions |
