@@ -31,15 +31,6 @@ The reason for rule 2 is to allow an implementation's creators to decide. If the
 
 To add:
 
-* Bee Smalltalk
-* PigeonTalk
-* Smalltalk 25
-* Zag
-* Smalltalk V/DOS 2
-* Smalltalk V/Win
-* Smalltalk V/Mac
-* Smalltalk V/PM
-* VisualWorks
 * LST forks
 * * SmallWorld
 * * SmallWorld 2007
@@ -70,22 +61,29 @@ To add:
 * * Jitter3
 * * Jitter5
 
+![relationship between Smalltalk implementations](./images/SmalltalkHistory.png)
+
+Taken from [a draft Smalltalk history at Simberon](http://simberon.blogspot.com/2012/04/smalltalk-history-draft-2.html)
 
 ### Initial Release and Forks
 
 | year | name and version    | type     | authors                       | license    | description |
 |------|---------------------|----------|-------------------------------|------------|-------------|
+| 2022 | PigeonTalk          | system   | David Buck                    |            | block based, like Scratch  |
+| 2021 | Zag                 | system   | David Mason                   | open       | VM written in Zig |
 | 2020 | Haver               | image    | Gerald Klix                   | open       | runs on Cuis and adds modules |
 | 2015 | Spry                | system   | Göran Krampe                  | open       | very tiny but Smalltalk-like implemented in Nim |
+| 2014 | Smalltalk 25        | system   | Boris Shingarov               |            | generate a VM from the definition of a processor |
+| 2014 | Bee Smalltalk       | system   | Javier Pimás, Javier Burroni, Gerardo Richarte | open      | metacircular Smalltalk            |
 | 2012 | Mist                | system   | Martin McClure                | open       | simple Smalltalk-in-Smalltalk that compiles to x86-64 |
 | 2011 | Amber Smalltalk     | system   | Nicolas Petton                | open       | runs on Javascript |
+| 2011 | Redline Smalltalk   | system   | James Ladd, Sean Allen        | open       | runs on the Java VM |
 | 2010 | Sly                 | image    | David Ungar, Sam Adams        | open       | extends Squeak to implement ensembles and adverbs on the RoarVM |
-| 2010 | #Smalltalk          | system   | John Brant, Don Roberts       | open       | Smalltalk for .NET |
 | 2010 | Pinocchio           | system   | U of Berne                    | open       | meta-circular VM |
 | 2009 | Cuis 1.0            | image    | Juan Vuletich                 | open       | fork of Squeak 3.7 to make it simpler |
 | 2009 | Pharo 0.1           | image    | Pharo Board                   | open       | fork of Squeak 3.9 to go in a different direction |
 | 2008 | Huemul              | system   | Guilleromo Adirán Molina      |            | uses Exupery to compile to x86 |
-| 2003 | GNU Smalltalk       | system   | Steve Byrne, Paolo Bonzini    | open       | text based |
+| 2002 | #Smalltalk          | system   | John Brant, Don Roberts       | open       | Smalltalk for .NET |
 | 2002 | OOVM                | system   | Lars Bak                      | commercial | Smalltalk for embedded devices, with special block arguments |
 | 2002 | Slate               | system   | Lee Salzman, Brian Rice       | open       | prototype based with multiple dispatch |
 | 2002 | S#                  | system   | David Simmons                 | commercial | Smalltalk for .NET |
@@ -100,8 +98,10 @@ To add:
 | 1994 | Smalltalk MT        | system   | Tarik Kerroum                 | commercial | compiles Smalltalk to machine code with easy access to DLLs |
 | 1994 | SmalltalkAgents     | system   | Quasar Knowledge Systems      | commercial | features optimized to access MacOS resources |
 | 1993 | VisualAge           | system   | IBM                           | commercial | focus on IDE for various languages |
+| 1990 | GNU Smalltalk       | system   | Steve Byrne, Paolo Bonzini    | open       | text based |
 | 1989 | Object Studio       | system   | ENFIN                         | commercial | originally called SCOPE, for military applications on the PC |
 | 1988 | ConcurrentSmalltalk | hardware | MIT                           | internal   | Lisp syntax version of Smalltalk on the 1024 processor J-Machine |
+| 1987 | VisualWorks         | system   | ParcPlace                     | commercial | spinoff from Xerox PARC to implement Smalltalk-80 for workstations (originally ObjectWorks) |
 | 1987 | Mushroom            | hardware | U Manchester                  | internal   | multiple FPGAs and TTLs |
 | 1987 | Self                | paper    | Dave Ungar, Randy Smith       |            | prototype based |
 | 1986 | Smalltalk/X         | system   | Claus Gittinger               | internal   | Smalltalk to C translator, initially |
@@ -154,6 +154,7 @@ To add:
 | 2015 | Squeak 5.0          | Squeak Board                  | open       | introduced Spur memory model |
 | 2015 | Pharo 4.0           | Pharo Board                   | open       |             |
 | 2014 | Pharo 3.0           | Pharo Board                   | open       |             |
+| 2014 | VisualWorks 8.0     | Cincom                        | commercial |             |
 | 2013 | Pharo 2.0           | Pharo Board                   | open       |             |
 | 2012 | Cuis 4.0            | Juan Vuletich                 | open       | better package support |
 | 2011 | Cuis 3.0            | Juan Vuletich                 | open       | new look |
@@ -167,12 +168,19 @@ To add:
 | 2005 | Little Smalltalk 4  | Tim Budd                      | open       | metaclasses, compiler in Smalltalk |
 | 2005 | VA Smalltalk 6.0.2  | Instanciations                | commercial | transition from IBM VisualAge to VA Smalltalk |
 | 2002 | Strongtalk          | Sun                           | open       | an open source release of the image from the 1997 Strongtalk |
+| 2002 | VisualWorks 7.0     | Cincom                        | commercial |             |
 | 2001 | Squeak 3.0          | Squeak Central                | open       | switched to Morphic as default GUI |
 | 2000 | Squeak 2.0          | Squeak Central                | open       | pluggable views, Morphic |
 | 1999 | VisualWorks 5i      | Cincom                        | commercial | uses native stack |
-| 1998 | VisualWorks 3.0     | ObjectShare                   | commercial |              |
+| 1998 | VisualWorks 3.0     | ObjectShare                   | commercial |             |
+| 1996 | Smalltalk Express   | ObjectShare                   | no cost    | freeware version of Smalltalk V/Win |
+| 1995 | Visual Smalltalk 3.0| Digitalk                      | commercial | client and Enterprise versions for OS/2 and Windows NT |
 | 1994 | Smalltalk/X         | eXept Software AG             | open       | moved from hobby to commercial development |
+| 1994 | VisualWorks 3.0     | ParcPlace                     | commercial | enhanced database communication |
+| 1991 | Smalltalk V/Win 3.0 | Digitalk                      | commercial |             |
 | 1990 | Smalltalk/X         | Claus Gittinger               |            | added JIT compilation |
+| 1988 | Smalltalk V/286     | Digitalk                      | commercial | protected mode system |
+| 1988 | Smalltalk V 2.0     | Digitalk                      | commercial |             |
 | 1988 | Smalltalk/X         | Claus Gittinger               | internal   | added bytecode interpreter |
 | 1988 | Little Smalltalk 3  | Tim Budd                      | open       | reorganized source tree |
 | 1987 | Little Smalltalk 2  | Tim Budd                      | open       | globals, more code moved to Smalltalk |
