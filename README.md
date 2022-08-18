@@ -25,38 +25,9 @@ The reason for rule 2 is to allow an implementation's creators to decide. If the
 
 ### License
 
-"Open" means that the license is in the spirit of Open Source or Free Software. "Commercial" is closed software that was sold. "Internal" was not made available to the public at all. "No cost" was made available without payment but without the sources (the more proper term "freeware" would cause confusion with Free Software and so was avoided).
+"Open" means that the license is in the spirit of Open Source or Free Software (linking to the code repository). "Commercial" is closed software that was sold. "Internal" was not made available to the public at all. "No cost" was made available without payment but without the sources (the more proper term "freeware" would cause confusion with Free Software and so was avoided).
 
 ## Implementations:
-
-To add:
-
-* LST forks
-* * SmallWorld
-* * SmallWorld 2007
-* * PDST
-* * Susie
-* * Parla
-* * LST 4.5
-* * ATalk
-* * Tumbleweed
-* Self derived
-* * Self4Linux
-* * tinySelf 1
-* * Klein
-* * Us
-* * Korz
-* * JSelf
-* * DSelf
-* * OpenSelf
-* * Self/R
-* Squeak VMs
-* * SqueakJS
-* * RSqueak
-* * JSqueak/Potato
-* * Jitter
-* * Jitter3
-* * Jitter5
 
 Taken from [a draft Smalltalk history at Simberon](http://simberon.blogspot.com/2012/04/smalltalk-history-draft-2.html):
 ![relationship between Smalltalk implementations](./images/SmalltalkHistory.png)
@@ -66,16 +37,21 @@ Taken from [a draft Smalltalk history at Simberon](http://simberon.blogspot.com/
 | year | name and version    | type     | authors                       | license    | description |
 |------|---------------------|----------|-------------------------------|------------|-------------|
 | 2022 | PigeonTalk          | system   | David Buck                    |            | block based, like Scratch  |
-| 2021 | Zag                 | system   | David Mason                   | open       | VM written in Zig |
+| 2021 | Zag                 | system   | David Mason                   | [open](https://github.com/dvmason/Zag-Smalltalk) | VM written in Zig |
 | 2020 | Haver               | image    | Gerald Klix                   | open       | runs on Cuis and adds modules |
-| 2020 | Crosstalk           | vm       | Michael Engel                 | [open](https://github.com/michaelengel/crosstalk) | Smalltalk-80 VM in C++ for Raspberry Pi |
-| 2020 | Smalltalk           | vm       | Dan Banay                     | [open](https://github.com/dbanay/Smalltalk) | translations of the "Blue Book" VM to C |
-| 2020 | Smalltalk           | vm       | Rochus Keller                 | [open](https://github.com/rochus-keller/Smalltalk) | interpreter and other tools to explore the orignal Smalltalk-80 image |
-| 2017 | TruffleSqueak       | vm       | Hasso PLattner Institut       | [open](https://github.com/hpi-swa/trufflesqueak) | uses Truffle and GraalVM |
+| 2020 | ST80                | VM       | devhawala                     | [open](https://github.com/devhawala/ST80)  | Smalltalk-80 VM in Java with interesting references |
+| 2020 | Crosstalk           | VM       | Michael Engel                 | [open](https://github.com/michaelengel/crosstalk) | Smalltalk-80 VM in C++ for Raspberry Pi |
+| 2020 | Smalltalk           | VM       | Dan Banay                     | [open](https://github.com/dbanay/Smalltalk) | translations of the "Blue Book" VM to C |
+| 2020 | Smalltalk           | VM       | Rochus Keller                 | [open](https://github.com/rochus-keller/Smalltalk) | interpreter and other tools to explore the orignal Smalltalk-80 image |
+| 2017 | TruffleSqueak       | VM       | Hasso PLattner Institut       | [open](https://github.com/hpi-swa/trufflesqueak) | uses Truffle and GraalVM |
+| 2015 | SqueakJS            | VM       | Vanessa Freudenberg           | open       | VM for Squeak/Cuis/Pharo in Javascript |
 | 2015 | Spry                | system   | Göran Krampe                  | [open](https://github.com/gokr/spry)       | very tiny but Smalltalk-like implemented in Nim |
+| 2014 | Korz                | image    | David Ungar, Harold Ossher    | internal   | a subjective extensions of Self or Javascript |
 | 2014 | Smalltalk 25        | system   | Boris Shingarov               |            | generate a VM from the definition of a processor |
 | 2014 | Bee Smalltalk       | system   | Javier Pimás, Javier Burroni, Gerardo Richarte | open      | metacircular Smalltalk            |
+| 2012 | Tumbleweed          | system   | Paul Gregory                  | [open](https://github.com/pgregory/tumbleweed)   | fork of Little Smalltalk 3 |
 | 2012 | Mist                | system   | Martin McClure                | open       | simple Smalltalk-in-Smalltalk that compiles to x86-64 |
+| 2012 | list                | VM       | Dmitry Kashitsyn              | [open](https://github.com/0x7CFE/llst)  | LLVM compiler for Little Smalltalk 5 |
 | 2011 | Amber Smalltalk     | system   | Nicolas Petton                | [open](https://github.com/amber-smalltalk/amber)      | runs on Javascript |
 | 2011 | Redline Smalltalk   | system   | James Ladd, Sean Allen        | [open](https://github.com/redline-smalltalk/redline-smalltalk)       | runs on the Java VM |
 | 2011 | Objective-Smalltalk | system   | Marcel Weiher                 | [open](https://github.com/mpw/Objective-Smalltalk) | combines features from Objective-C and Smalltalk |
@@ -83,24 +59,45 @@ Taken from [a draft Smalltalk history at Simberon](http://simberon.blogspot.com/
 | 2010 | Pinocchio           | system   | U of Berne                    | open       | meta-circular VM |
 | 2009 | Cuis 1.0            | image    | Juan Vuletich                 | [open](https://github.com/Cuis-Smalltalk/Cuis-Smalltalk-Dev)       | fork of Squeak 3.7 to make it simpler |
 | 2009 | Pharo 0.1           | image    | Pharo Board                   | [open](https://github.com/pharo-project/pharo)       | fork of Squeak 3.9 to go in a different direction |
-| 2008 | RoarVM              | vm       | David Ungar, Sam Adams        | [open](https://github.com/smarr/RoarVM) | a rewrite of the SqueakVM in C++ to run on manycore machines |
-| 2008  | OpenSmalltalkVM    | vm       | Eliot Miranda                 | [open](https://github.com/OpenSmalltalk/opensmalltalk-vm) | fork of the SqueakVM to do JIT compilation and other enhancements |
+| 2008 | RoarVM              | VM       | David Ungar, Sam Adams        | [open](https://github.com/smarr/RoarVM) | a rewrite of the SqueakVM in C++ to run on manycore machines |
+| 2008  | OpenSmalltalkVM    | VM       | Eliot Miranda                 | [open](https://github.com/OpenSmalltalk/opensmalltalk-vm) | fork of the SqueakVM to do JIT compilation and other enhancements |
 | 2008 | Huemul              | system   | Guilleromo Adirán Molina      |            | uses Exupery to compile to x86 |
+| 2007 | RSqueak             | VM       | HPI-SWA                       | [open](https://github.com/hpi-swa/RSqueak) | VM for Squeak using the PyPy project |
+| 2006 | JSqueak/Potato      | VM       | Dan Ingalls                   |            | VM for Squeak written in Java |
+| 2005 | Parla               | system   | Michael Koehne                | open       | fork of Little Smalltalk 3 |
+| 2004 | Susie               | system   | Montgomery Tidwell            | open       | (Scripting Using a Smalltalk Interpreter Engine) fork of PDST |
+| 2002 | LST 4.5             | system   | Kyle Hayes                    | [open](https://github.com/kyle-github/littlesmalltalk) | fork of Little Smalltalk 4 |
+| 2002 | SmallWorld          | VM       | Tim Budd                      | open       | Little Smalltalk VM in Java |
+| 2002 | ATalk               | system   | Jim Steichen                  | [open](http://www.frontiernet.net/~jimbot/amigatalk.htm) | (AmigaTalk) fork of Little Smalltalk 1 |
+| 2002 | Jitter5             | VM       | Ian Piumarta                  | open       | JIT compiler for Squeak |
 | 2002 | #Smalltalk          | system   | John Brant, Don Roberts       | open       | Smalltalk for .NET |
 | 2002 | OOVM                | system   | Lars Bak                      | commercial | Smalltalk for embedded devices, with special block arguments |
 | 2002 | Slate               | system   | Lee Salzman, Brian Rice       | [open](https://github.com/briantrice/slate-language)     | prototype based with multiple dispatch |
 | 2002 | S#                  | system   | David Simmons                 | commercial | Smalltalk for .NET |
 | 2002 | SOM                 | system   | U of Aarhus                   | open       | SimpleObjectMachine for teaching implementation techniques |
+| 2001 | dSelf               | system   | Robert Tolksdorf, Kai Knubben |            |  distributed version of Self |
+| 2001 | Klein               | VM       | David Ungar                   | open       | metacircular Self VM |
+| 2001 | Self4Linux          | VM       | Gordon Cichon                 | open       | x86 JIT compiler for Self |
+| 2001 | Jitter3             | VM       | Ian Piumarta                  | open       | JIT compiler for Squeak |
 | 2001 | LSWVST              | system   | Lesser-Software               | commercial | bytecode compatible with Smalltalk/V |
+| 2000 | Jitter2             | VM       | Ian Piumarta                  | open       | JIT compiler for Squeak 2.3 |
 | 2000 | Bistro              | system   | Nik Boyd                      | open       | Smalltalk on top of the Java VM |
+| 1999 | PDST                | system   | Douglas Hammond               | open       | (Public Domain Smalltalk) fork of Little Smalltalk 3 |
+| 1999 | OpenSelf            | vm       | Marko Mikulicic               | [open](http://www.linuxsupportline.com/~openself/)  | rewrite of the Self VM from scratch |
+| 1999 | JSelf               | VM       | Diego Deck                    | open       | Self VM in Java |
 | 1999 | F-Script            | system   | Philippe Mougin               | open       | Smalltalk layer on top of Cocoa MacOS, with APL style extensions |
+| 1998 | Jitter1             | VM       | Ian Piumarta                  | open       | JIT compiler for Squeak 1.3 generating threaded code |
 | 1998 | Dolphin             | system   | Object Arts                   | commercial | small system optimized for Windows |
 | 1998 | Pocket Smalltlk     | system   | Andrew Brault                 | open       | develop in an IDE an generate executable for Palm Pilot |
+| 1997 | tinySelf1           | VM       | Jecel Assumpção Jr            | open       | parallel Self VM written in Self |
+| 1996 | Us                  | image    | David Ungar, Randy Smith      | internal   | a subjective extension of Self |
 | 1996 | Squeak              | system   | Apple                         | open       | VM written in Slang (Smalltalk subset) and simulated within Smalltalk |
 | 1996 | Strongtalk          | system   | Animorphic Systems            | commercial | vm techniques from Self, optional typing, traits |
+| 1995 | Self/R              | paper    | Jecel Assumpção Jr            |            | reflective extension of Self |
 | 1994 | Smalltalk MT        | system   | Tarik Kerroum                 | commercial | compiles Smalltalk to machine code with easy access to DLLs |
 | 1994 | SmalltalkAgents     | system   | Quasar Knowledge Systems      | commercial | features optimized to access MacOS resources |
 | 1993 | VisualAge           | system   | IBM                           | commercial | focus on IDE for various languages |
+| 1991 | Ultimardrev         | VM       | Philippe Mulet, Fred Rivard   | open       | Self 1 interpreter in Smalltalk 2.5 |
 | 1990 | GNU Smalltalk       | system   | Steve Byrne, Paolo Bonzini    | open       | text based |
 | 1989 | Object Studio       | system   | ENFIN                         | commercial | originally called SCOPE, for military applications on the PC |
 | 1988 | ConcurrentSmalltalk | hardware | MIT                           | internal   | Lisp syntax version of Smalltalk on the 1024 processor J-Machine |
@@ -118,13 +115,13 @@ Taken from [a draft Smalltalk history at Simberon](http://simberon.blogspot.com/
 | 1984 | Sword32             | hardware | U Tokyo                       | internal   | chip |
 | 1984 | COM                 | hardware | Caltech                       | internal   | Object architecture |
 | 1984 | Little Smalltalk 1  | system   | Tim Budd                      | open       | text based for Unix machines with corresponding book |
-| 1984 | Clone/Reduce        | vm       | Jecel Assumpção Jr            | internal   | An alternative execution model via copying ASTs at runtime |
+| 1984 | Clone/Reduce        | VM       | Jecel Assumpção Jr            | internal   | An alternative execution model via copying ASTs at runtime |
 | 1983 | SOAR                | hardware | Berkeley                      | internal   | Smalltalk On A RISC processor and software|
-| 1981 | Smalltalk-80        | vm       | Tektronix                     | internal   | 68000 prototype |
-| 1981 | Smalltalk-80        | vm       | Apple                         | internal   | Lisa |
-| 1981 | Smalltalk-80        | vm       | DEC                           | internal   | 32 bit port to the VAX |
-| 1981 | Smalltalk-80        | vm       | HP                            | internal   | VAX |
-| 1981 | Smalltalk-80        | vm       | U Berkeley                    |            | VAX |
+| 1981 | Smalltalk-80        | VM       | Tektronix                     | internal   | 68000 prototype |
+| 1981 | Smalltalk-80        | VM       | Apple                         | internal   | Lisa |
+| 1981 | Smalltalk-80        | VM       | DEC                           | internal   | 32 bit port to the VAX |
+| 1981 | Smalltalk-80        | VM       | HP                            | internal   | VAX |
+| 1981 | Smalltalk-80        | VM       | U Berkeley                    |            | VAX |
 | 1981 | OPL 432             | system   | Scott Warren                  | commercial | port of Rosetta Smalltalk to Intel's iAPX432 system |
 | 1981 | Rosetta Smalltalk   | system   | Scott Warren                  |            | for 8 bit microcomputers, shown at the Exidy booth at NCC'81 | 
 | 1980 | TinyTalk            | system   | PARC                          | internal   | 64KB adaptation of Smalltalk-76 |
@@ -154,6 +151,7 @@ Taken from [a draft Smalltalk history at Simberon](http://simberon.blogspot.com/
 | 2016 | Cuis 5.0            | Juan Vuletich                 | open       |             |
 | 2016 | Dolphin 7           | Object Arts                   | [open](https://github.com/dolphinsmalltalk/Dolphin)       | open sourced the system |
 | 2016 | Pharo 5.0           | Pharo Board                   | open       |             |
+| 2015 | SmallWorld 2015     | Russel Allen, Davide Casa     | open       | update of the SmallWorld 2007 fork of SmallWorld |
 | 2015 | Squeak 5.0          | Squeak Board                  | open       | introduced Spur memory model |
 | 2015 | Pharo 4.0           | Pharo Board                   | open       |             |
 | 2014 | Pharo 3.0           | Pharo Board                   | open       |             |
@@ -166,6 +164,7 @@ Taken from [a draft Smalltalk history at Simberon](http://simberon.blogspot.com/
 | 2009 | VA Smalltalk 8.0    | Instanciations                | commercial |             |
 | 2009 | Dolphin 6           | Object-Arts, Lesser Software  | commercial | moved Dolphin to LSWVST virtual machine |
 | 2008 | Squeak 3.10         | Squeak Board                  | open       | first release after Pharo fork |
+| 2007 | SmallWorld 2007     | Russell Allen, Davide Casa    | open       | continuation of SmallWorld, a VM for Little Smalltalk in Java |
 | 2007 | Little Smalltalk 5  | Charles Childers              | open       |             |
 | 2006 | Strongtalk          | Sun                           | open       | an open source release of the vm from the 1997 Strongtalk |
 | 2005 | Little Smalltalk 4  | Tim Budd                      | open       | metaclasses, compiler in Smalltalk |
