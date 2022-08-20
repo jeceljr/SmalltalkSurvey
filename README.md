@@ -160,6 +160,7 @@ Taken from [a draft Smalltalk history at Simberon](http://simberon.blogspot.com/
 | 2019 | Pharo 7.0           | Pharo Board                   | open       |             |
 | 2017 | VA Smalltalk 9.0    | Instanciations                | commercial |             |
 | 2017 | Pharo 6.0           | Pharo Board                   | open       |             |
+| 2017 | Self 2017.1         | Russell Allen                 | open       |             |
 | 2016 | Cuis 5.0            | Juan Vuletich                 | open       |             |
 | 2016 | Dolphin 7           | Object Arts                   | [open](https://github.com/dolphinsmalltalk/Dolphin)       | open sourced the system |
 | 2016 | Pharo 5.0           | Pharo Board                   | open       |             |
@@ -172,10 +173,12 @@ Taken from [a draft Smalltalk history at Simberon](http://simberon.blogspot.com/
 | 2012 | Cuis 4.0            | Juan Vuletich                 | open       | better package support |
 | 2011 | Cuis 3.0            | Juan Vuletich                 | open       | new look |
 | 2010 | Cuis 2.0            | Juan Vuletich                 | open       | closure enabled, can used Co VM |
+| 2010 | Self 4.4            | Russell Allen                 | open       | 
 | 2009 | Pharo 1.0           | Pharo Board                   | open       |             |
 | 2009 | VA Smalltalk 8.0    | Instanciations                | commercial |             |
 | 2009 | Dolphin 6           | Object-Arts, Lesser Software  | commercial | moved Dolphin to LSWVST virtual machine |
 | 2008 | Squeak 3.10         | Squeak Board                  | open       | first release after Pharo fork |
+| 2008 | Self 4.3            | Russell Allen                 | [open](https://github.com/russellallen/self) | release of changes by David Ungar since 4.0 in 1995 |
 | 2007 | SmallWorld 2007     | Russell Allen, Davide Casa    | [open](https://github.com/russellallen/SmallWorld) | continuation of SmallWorld, a VM for Little Smalltalk in Java |
 | 2007 | Little Smalltalk 5  | Charles Childers              | open       |             |
 | 2006 | Strongtalk          | Sun                           | open       | an open source release of the vm from the 1997 Strongtalk |
@@ -189,10 +192,15 @@ Taken from [a draft Smalltalk history at Simberon](http://simberon.blogspot.com/
 | 1998 | VisualWorks 3.0     | ObjectShare                   | commercial |             |
 | 1996 | Smalltalk Express   | ObjectShare                   | no cost    | freeware version of Smalltalk V/Win |
 | 1995 | Visual Smalltalk 3.0| Digitalk                      | commercial | client and Enterprise versions for OS/2 and Windows NT |
+| 1995 | Self 4.0            | Sun Labs                      | open       | Morphic GUI |
 | 1994 | Smalltalk/X         | eXept Software AG             | open       | moved from hobby to commercial development |
 | 1994 | VisualWorks 3.0     | ParcPlace                     | commercial | enhanced database communication |
+| 1993 | Self 3.0            | Sun Labs                      | open       | two compilers with type feedback |
+| 1992 | Self 2.0            | Sun Labs                      | open       | improved compiler |
 | 1991 | Smalltalk V/Win 3.0 | Digitalk                      | commercial |             |
+| 1991 | Self 1.1            | Stanford                      | open       | threads and clean up |
 | 1990 | Smalltalk/X         | Claus Gittinger               |            | added JIT compilation |
+| 1990 | Self 1.0            | Stanford                      | open       | first implementation |
 | 1988 | Smalltalk V/286     | Digitalk                      | commercial | protected mode system |
 | 1988 | Smalltalk V 2.0     | Digitalk                      | commercial |             |
 | 1988 | Smalltalk/X         | Claus Gittinger               | internal   | added bytecode interpreter |
