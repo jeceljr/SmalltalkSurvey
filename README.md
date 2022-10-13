@@ -43,7 +43,7 @@ Taken from [a draft Smalltalk history at Simberon](http://simberon.blogspot.com/
 | 2020 | Haver               | image    | Gerald Klix                   | open       | runs on Cuis and adds modules |
 | 2020 | ST80                | VM       | devhawala                     | [open](https://github.com/devhawala/ST80)  | Smalltalk-80 VM in Java with interesting references |
 | 2020 | Crosstalk           | VM       | Michael Engel                 | [open](https://github.com/michaelengel/crosstalk) | Smalltalk-80 VM in C++ for Raspberry Pi |
-| 2020 | Smalltalk           | VM       | Dan Banay                     | [open](https://github.com/dbanay/Smalltalk) | translations of the "Blue Book" VM to C |
+| 2020 | Smalltalk           | VM       | Dan Banay                     | [open](https://github.com/dbanay/Smalltalk) | translations of the "Blue Book" VM to C++ |
 | 2020 | Smalltalk           | VM       | Rochus Keller                 | [open](https://github.com/rochus-keller/Smalltalk) | interpreter and other tools to explore the orignal Smalltalk-80 image |
 | 2020 | Amiga-Smalltalk     | VM       | Graham Lee, Alan Francis      | [open](https://github.com/iamleeg/Amiga-Smalltalk) | "blue book" Smalltalk VM for the Amiga |
 | 2020 | SmallJ              | VM       | Richard R                     | [open](https://github.com/smalljvm/SmallJ) | fork of SmallWorld |
@@ -88,7 +88,7 @@ Taken from [a draft Smalltalk history at Simberon](http://simberon.blogspot.com/
 | 2011 | Redline Smalltalk   | system   | James Ladd, Sean Allen        | [open](https://github.com/redline-smalltalk/redline-smalltalk)       | runs on the Java VM |
 | 2011 | Objective-Smalltalk | system   | Marcel Weiher                 | [open](https://github.com/mpw/Objective-Smalltalk) | combines features from Objective-C and Smalltalk |
 | 2011 | Reak                | system   | Konstantin Haase              | [open](https://github.com/rkh/Reak) | Smalltalk on Rubinius |
-| 2011 | A Little Smalltalk  | system   | Alain Fischer                 | [open](https://github.com/afi-lambda/a_little_smalltalk) | fork o Little Smalltalk 3 |
+| 2011 | A Little Smalltalk  | system   | Alain Fischer                 | [open](https://github.com/afi-lambda/a_little_smalltalk) | fork of Little Smalltalk 3 |
 | 2010 | Sly                 | image    | David Ungar, Sam Adams        | open       | extends Squeak to implement ensembles and adverbs on the RoarVM |
 | 2010 | Pinocchio           | system   | U of Berne                    | open       | meta-circular VM |
 | 2010 | Irontalk            | system   | William Lahti                 | [open](https://github.com/rezonant/irontalk) | Smalltalk for .NET |
