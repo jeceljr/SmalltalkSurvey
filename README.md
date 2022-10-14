@@ -104,6 +104,7 @@ Taken from [a draft Smalltalk history at Simberon](http://simberon.blogspot.com/
 | 2007 | RSqueak             | VM       | HPI-SWA                       | [open](https://github.com/hpi-swa/RSqueak) | VM for Squeak using the PyPy project |
 | 2006 | JSqueak/Potato      | VM       | Dan Ingalls                   | [open](https://github.com/victorr/jsqueak) | VM for Squeak written in Java |
 | 2005 | Parla               | system   | Michael Koehne                | open       | fork of Little Smalltalk 3 |
+| 2004 | Ambrai Smalltalk    | system   | Ambrai Inc                    | commercial | small system optimized for MacOS X |
 | 2004 | Susie               | system   | Montgomery Tidwell            | open       | (Scripting Using a Smalltalk Interpreter Engine) fork of PDST |
 | 2002 | LST 4.5             | system   | Kyle Hayes                    | [open](https://github.com/kyle-github/littlesmalltalk) | fork of Little Smalltalk 4 |
 | 2002 | SmallWorld          | VM       | Tim Budd                      | [open](https://github.com/crcx/littlesmalltalk)  | Little Smalltalk VM in Java |
