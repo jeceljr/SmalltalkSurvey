@@ -95,7 +95,8 @@ Taken from [a draft Smalltalk history at Simberon](http://simberon.blogspot.com/
 | 2010 | LittleTalk          | system   | Hugo Ferreira                 | [open](https://github.com/hugoferreira/LittleTalk) | minimalistic, self hosting Smalltalk |
 | 2009 | Cuis 1.0            | image    | Juan Vuletich                 | [open](https://github.com/Cuis-Smalltalk/Cuis-Smalltalk-Dev)       | fork of Squeak 3.7 to make it simpler |
 | 2009 | Pharo 0.1           | image    | Pharo Board                   | [open](https://github.com/pharo-project/pharo)       | fork of Squeak 3.9 to go in a different direction |
-| 2009 | chitchat            | compiler | Stephen Weeks                 | [open](https://github.com/parrot/chitchat) | translates Smalltalk to Parrot VM (Perl) |
+| 2009 | Clamato             | system   | Avi Bryant                    | open       | Smalltalk dialect implement in client-side JavaScript |
+|2009 | chitchat            | compiler | Stephen Weeks                 | [open](https://github.com/parrot/chitchat) | translates Smalltalk to Parrot VM (Perl) |
 | 2008 | RoarVM              | VM       | David Ungar, Sam Adams        | [open](https://github.com/smarr/RoarVM) | a rewrite of the SqueakVM in C++ to run on manycore machines |
 | 2008  | OpenSmalltalkVM    | VM       | Eliot Miranda                 | [open](https://github.com/OpenSmalltalk/opensmalltalk-vm) | fork of the SqueakVM to do JIT compilation and other enhancements |
 | 2008 | Huemul              | system   | Guilleromo Adirán Molina      |            | uses Exupery to compile to x86 |
