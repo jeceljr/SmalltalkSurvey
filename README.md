@@ -71,7 +71,7 @@ Taken from [a draft Smalltalk history at Simberon](http://simberon.blogspot.com/
 | 2015 | SmallTalk-VirtualMachine | VM  | Mayank Thirani                | [open](https://github.com/mthirani/SmallTalk-VirtualMachine) | generate and interpret Smalltalk bytecodes in Java |
 | 2014 | Korz                | image    | David Ungar, Harold Ossher    | internal   | a subjective extensions of Self or Javascript |
 | 2014 | Smalltalk 25        | system   | Boris Shingarov               |            | generate a VM from the definition of a processor |
-| 2014 | Bee Smalltalk       | system   | Javier Pimás, Javier Burroni, Gerardo Richarte | open      | metacircular Smalltalk            |
+| 2014 | Bee Smalltalk       | system   | Javier Pimás, Javier Burroni, Gerardo Richarte | [open](https://github.com/aucerna/bee-dmr)      | metacircular Smalltalk            |
 | 2014 | Smalltalk78JS       | VM       | Vanessa Freudenberg           | [open](https://github.com/codefrau/Smalltalk78) | VM for Smalltalk-78 in Javascript |
 | 2013 | Gravel              | system   | Wouter Gazendam               | [open](https://github.com/gravel-st/gravel) | Smalltalk implementation for the Java VM |
 | 2013 | TruffleSOM          | VM       | Stefan Marr                   | [open](https://github.com/smarr/TruffleSOM) | SOM (Simple Object Machine) Smalltalk on Truffle |
