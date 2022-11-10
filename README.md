@@ -1,4 +1,4 @@
-# SmalltalkSurvey
+	# SmalltalkSurvey
 
 The goal is to compile a reasonably complete list of all implementations of the Smalltalk system.
 
@@ -71,7 +71,7 @@ Taken from [a draft Smalltalk history at Simberon](http://simberon.blogspot.com/
 | 2015 | SmallTalk-VirtualMachine | VM  | Mayank Thirani                | [open](https://github.com/mthirani/SmallTalk-VirtualMachine) | generate and interpret Smalltalk bytecodes in Java |
 | 2014 | Korz                | image    | David Ungar, Harold Ossher    | internal   | a subjective extensions of Self or Javascript |
 | 2014 | Smalltalk 25        | system   | Boris Shingarov               |            | generate a VM from the definition of a processor |
-| 2014 | Bee Smalltalk       | system   | Javier Pimás, Javier Burroni, Gerardo Richarte | open      | metacircular Smalltalk            |
+| 2014 | Bee Smalltalk       | system   | Javier Pimás, Javier Burroni, Gerardo Richarte | [open](https://github.com/aucerna/bee-dmr)      | metacircular Smalltalk            |
 | 2014 | Smalltalk78JS       | VM       | Vanessa Freudenberg           | [open](https://github.com/codefrau/Smalltalk78) | VM for Smalltalk-78 in Javascript |
 | 2013 | Gravel              | system   | Wouter Gazendam               | [open](https://github.com/gravel-st/gravel) | Smalltalk implementation for the Java VM |
 | 2013 | TruffleSOM          | VM       | Stefan Marr                   | [open](https://github.com/smarr/TruffleSOM) | SOM (Simple Object Machine) Smalltalk on Truffle |
@@ -93,6 +93,7 @@ Taken from [a draft Smalltalk history at Simberon](http://simberon.blogspot.com/
 | 2010 | Pinocchio           | system   | U of Berne                    | open       | meta-circular VM |
 | 2010 | Irontalk            | system   | William Lahti                 | [open](https://github.com/rezonant/irontalk) | Smalltalk for .NET |
 | 2010 | LittleTalk          | system   | Hugo Ferreira                 | [open](https://github.com/hugoferreira/LittleTalk) | minimalistic, self hosting Smalltalk |
+| 2010 | S8            | system    | u8 team                 | [open](http://u8.smalltalking.net/s8.aspx)       | Smalltalk for social construction |
 | 2009 | Cuis 1.0            | image    | Juan Vuletich                 | [open](https://github.com/Cuis-Smalltalk/Cuis-Smalltalk-Dev)       | fork of Squeak 3.7 to make it simpler |
 | 2009 | Pharo 0.1           | image    | Pharo Board                   | [open](https://github.com/pharo-project/pharo)       | fork of Squeak 3.9 to go in a different direction |
 | 2009 | Clamato             | system   | Avi Bryant                    | open       | Smalltalk dialect implement in client-side JavaScript |
@@ -130,7 +131,7 @@ Taken from [a draft Smalltalk history at Simberon](http://simberon.blogspot.com/
 | 1999 | smalltalk           | system   | Richard Cornwell              | [open](https://github.com/rcornwell/smalltalk) | VM in C and Smalltalk sources |
 | 1998 | Jitter1             | VM       | Ian Piumarta                  | open       | JIT compiler for Squeak 1.3 generating threaded code |
 | 1998 | Dolphin             | system   | Object Arts                   | commercial | small system optimized for Windows |
-| 1998 | Pocket Smalltlk     | system   | Andrew Brault                 | open       | develop in an IDE an generate executable for Palm Pilot |
+| 1998 | Pocket Smalltalk     | system   | Andrew Brault                 | [open](http://www.esug.org/data/Smalltalk/Historical/pocketst/)       | develop in an IDE an generate executable for Palm Pilot |
 | 1997 | tinySelf1           | VM       | Jecel Assumpção Jr            | open       | parallel Self VM written in Self |
 | 1997 | ZokuTalk            | system   | Peter William Lount           | internal   | MOBS: Messages, Object, Blocks and Syntax |
 | 1996 | Us                  | image    | David Ungar, Randy Smith      | internal   | a subjective extension of Self |
