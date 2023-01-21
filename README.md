@@ -186,7 +186,7 @@ Taken from [a draft Smalltalk history at Simberon](http://simberon.blogspot.com/
 | 2022 | VAST Platform 11.0.0| Instanciations                | commercial |             |
 | 2022 | Pharo 10            | Pharo Board                   | open       |             |
 | 2021 | VAST Platform 10.0.0| Instanciations                | commercial | renamed VA Smalltalk to VAST Platform |
-| 2021 | Pharo 9             | Pharo Board                   | commercial |             |
+| 2021 | Pharo 9             | Pharo Board                   | open       |             |
 | 2020 | ObjectStudio 9.0    | Cincom                        | commercial |             |
 | 2020 | VisualWorks 9.0     | Cincom                        | commercial |             |
 | 2020 | Pharo 8.0           | Pharo Board                   | open       |             |
