@@ -104,6 +104,7 @@ Taken from [a draft Smalltalk history at Simberon](http://simberon.blogspot.com/
 | 2008 | Panda               | system   | Vincent Geddes                | [open](https://github.com/vgeddes/panda-smalltalk) | Smalltalk implemented from scratch in C99 |
 | 2008 | IronSmalltalk       | VM       | Erlis Vidal                   | [open](https://github.com/erlis/IronSmalltalk) | Smalltalk VM in C# |
 | 2007 | RSqueak             | VM       | HPI-SWA                       | [open](https://github.com/hpi-swa/RSqueak) | VM for Squeak using the PyPy project |
+| 2007 | Smalltalk YX        | system   | Luca Bruno                    | [open](https://code.google.com/archive/p/syx/) | Smalltalk-80 implementation in C |
 | 2006 | JSqueak/Potato      | VM       | Dan Ingalls                   | [open](https://github.com/victorr/jsqueak) | VM for Squeak written in Java |
 | 2005 | Parla               | system   | Michael Koehne                | open       | fork of Little Smalltalk 3 |
 | 2004 | Ambrai Smalltalk    | system   | Ambrai Inc                    | commercial | small system optimized for MacOS X |
