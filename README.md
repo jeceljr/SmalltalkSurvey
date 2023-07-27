@@ -38,7 +38,9 @@ Taken from [a draft Smalltalk history at Simberon](http://simberon.blogspot.com/
 |------|---------------------|----------|-------------------------------|------------|-------------|
 | 2022 | PigeonTalk          | system   | David Buck                    |            | block based, like Scratch  |
 | 2022 | Smalltalk-80-CompilerLib | compiler | Mark Bush                | [open](https://github.com/markbush/Smalltalk-80-CompilerLib) | Smalltalk compiler in Swift |
+| 2021 | zigSelf             | system   | sin-ack                       | [open](https://github.com/sin-ack/zigself) | Self in Zig|
 | 2021 | Zag                 | system   | David Mason                   | [open](https://github.com/dvmason/Zag-Smalltalk) | VM written in Zig |
+| 2021 | self-interpreter    | VM       | Jacob Pinney                  | [open](https://github.com/pinneyja/self-interpreter) | interpreter for Self in Python |
 | 2021 | JSqueak-2021        | VM       | Ricky                         | [open](https://github.com/ricky9090/jsqueak-2021) | fork of Squeak VM in Java |
 | 2020 | Haver               | image    | Gerald Klix                   | open       | runs on Cuis and adds modules |
 | 2020 | ST80                | VM       | devhawala                     | [open](https://github.com/devhawala/ST80)  | Smalltalk-80 VM in Java with interesting references |
@@ -68,6 +70,7 @@ Taken from [a draft Smalltalk history at Simberon](http://simberon.blogspot.com/
 | 2015 | lodtalk             | system   | Ronie Salgado                 | [open](https://github.com/ronsaldo/lodtalk) | embeddable Smalltalk |
 | 2015 | lst3r               | system   | Chris Reuter                  | [open](https://github.com/suetanvil/lst3r) | cleanup of Little Smalltalk 3 |
 | 2015 | StNG                | VM       | Federico Omoto                | [open](https://github.com/FedeOmoto/stng) | Smalltalk Next Generation in Nim |
+| 2015 | TruffleMATE         | system   | Guido Chari                   | [open](https://github.com/charig/TruffleMATE) | fork of TruffleSOM |
 | 2015 | SmallTalk-VirtualMachine | VM  | Mayank Thirani                | [open](https://github.com/mthirani/SmallTalk-VirtualMachine) | generate and interpret Smalltalk bytecodes in Java |
 | 2014 | Korz                | image    | David Ungar, Harold Ossher    | internal   | a subjective extensions of Self or Javascript |
 | 2014 | Smalltalk 25        | system   | Boris Shingarov               |            | generate a VM from the definition of a processor |
