@@ -90,7 +90,7 @@ Taken from [a draft Smalltalk history at Simberon](http://simberon.blogspot.com/
 | 2012 | Minitalk            | system   | Hellwig Geisse                | [open](https://github.com/GunterMueller/Minitalk) | experimental Smalltalk |
 | 2011 | Amber Smalltalk     | system   | Nicolas Petton                | [open](https://github.com/amber-smalltalk/amber)      | runs on Javascript |
 | 2011 | Redline Smalltalk   | system   | James Ladd, Sean Allen        | [open](https://github.com/redline-smalltalk/redline-smalltalk)       | runs on the Java VM |
-| 2011 | Objective-Smalltalk | system   | Marcel Weiher                 | [open](https://github.com/mpw/Objective-Smalltalk) | combines features from Objective-C and Smalltalk |
+| 2011 | Objective-Smalltalk | system   | Marcel Weiher                 | [open](https://github.com/mpw/Objective-Smalltalk) | Architecture-oriented generalization, connector-oriented metaobject protocol |
 | 2011 | Reak                | system   | Konstantin Haase              | [open](https://github.com/rkh/Reak) | Smalltalk on Rubinius |
 | 2011 | A Little Smalltalk  | system   | Alain Fischer                 | [open](https://github.com/afi-lambda/a_little_smalltalk) | fork of Little Smalltalk 3 |
 | 2010 | Sly                 | image    | David Ungar, Sam Adams        | open       | extends Squeak to implement ensembles and adverbs on the RoarVM |
